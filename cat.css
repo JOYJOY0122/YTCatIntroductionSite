@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(221, 241, 248);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+.myHeader {
+    color: #333;
+    text-align: center;
+    background-color: cornflowerblue;
+    margin-top: 0;
+}
+.flex-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-section > * {
+    flex: 1;
+  }
+  
+  .flex-section .image {
+    flex: 0 0 50%;
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .flex-section .introduction {
+    flex: 0 0 50%;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.myFooter {
+    color: #333;
+    text-align: center;
+    border-top: 2px solid rgb(35, 13, 160);
+}
